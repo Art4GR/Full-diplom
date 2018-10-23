@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<head>
+<title>Визуальный конфигуратор</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/button.css" ><!--  css кнопок  -->
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+
+<!--____________________________________Навигация______________________________-->
+<link rel="stylesheet" href="css/right-nav-styleMenu.css">
+<body>
+<input type="checkbox" id="nav-toggle" hidden>
+    
+    <nav class="nav">
+      
+   
+        <label for="nav-toggle" class="nav-toggle" onclick></label>
+    
+        <h2 class="logo"> 
+            <a>Навигация</a> 
+        </h2>
+        <ul>
+            <li><a href="../calc_podbor_3D/t_calc.html">Шинный калькулятор</a>
+            <li><a href="../calc_podbor_3D/avto_podbor.html">Подбор по автомобилю</a>
+            <li><a href="../calc_podbor_3D/vizual.html">3D модель</a>
+            <li><a href="../kreator/index.html">Визуальный калькулятор</a>
+            <li><a href="https://tyrestretch.com/">Коллекция Tyresrtetch.com</a>
+            
+        </ul>
+    </nav>
+</body>
+<!--____________________________________Навигация______________________________-->
+
+
+<!--____________________________________Previe______________________________-->
+
+
+<body>
+   
+ <p><img src="../images/prev2.png" width="1518" height="150" alt="Превью"></p>
+
+
+</body>
+
+
+<!--____________________________________Previe______________________________-->
+
+
+
+
+
+
+
+
+
+<!--____________________________________Окно с машиной______________________________-->
+
+<body class="dleave">
+<div class="col2_right">
+
+<link rel="stylesheet" type="text/css" href="css/main.css"/>
+<link rel="stylesheet" href="css/farbtastic.css" type="text/css"/><!--  цвет кузова  -->
+<link rel="stylesheet" href="css/podskaz.css" type="text/css"/><!--  podskaz  -->
+
+        
+        <div class="section" id="carinner" style="padding-left:230px;">
+            <div class="DiskConfHolder" ><!--  границы  -->
+                <div class="DiskConfHolderTBG"> <!--  границы  -->
+                    <div class="DiskConfHolderBBG"> <!--  границы  -->
+
+                        <div id="selectProperties">
+                            <ul class="tabs">
+                                <li id="osnovnoy" class="current"></li>
+                                <li class="tab"></li>
+                                    <!-- //wheelSet-->   <li style="display:none;" id="wheelSet" class="tab"></li><!-- \\wheelSet-->
+                                <li id="colorSet" class="tab" >
+                                    
+                                </li>
+                                <!--// printset-->
+                                <li style="display:none;" id="printSet" class="tab"></li><!-- \\printset-->
+                            </ul>
+<!--///полировка + цвета-->
+                            <div id="selectedColor" class="SelectedColor">
+                                <span data-step="5" data-intro="Для полировки дисков, нажмите на эту кнопку" class="active mirror hint forOne" data-name="Зеркальная полировка"
+                                      data-hint="Зеркальная полировка"
+                                      data-mirrorpicture="../images/wheels/bf3/134_100_1/diskp.png"
+                                      data-realpicture="../images/wheels/e8b/100_100_1/diskn.png"></span>
+
+<span  class="active yellow hint forOne" data-name="желтый"
+                                      data-hint="yellow"
+                                      data-yellowpicture="../images/wheels/bf3/134_100_1/disky.png" style="background:yellow"
+                                      data-realpicture="../images/wheels/e8b/100_100_1/diskn.png"></span>
+<span  class="active yellow hint forOne" 
+                                      data-hint="красный"
+                                      data-yellowpicture="../images/wheels/bf3/134_100_1/diskr.png" style="background:red"
+                                      data-realpicture="../images/wheels/e8b/100_100_1/diskn.png"></span>
+
+<span  class="active yellow hint forOne" 
+                                      data-hint="синий"
+                                      data-yellowpicture="../images/wheels/bf3/134_100_1/diskb.png" style="background:blue"
+                                      data-realpicture="../images/wheels/e8b/100_100_1/diskn.png"></span>
+
+<span  class="active yellow hint forOne" 
+                                      data-hint="черный"
+                                      data-yellowpicture="../images/wheels/bf3/134_100_1/diskbl.png" style="background:black"
+                                      data-realpicture="../images/wheels/e8b/100_100_1/diskn.png"></span>
+
+<span  class="active yellow hint forOne" 
+                                      data-hint="zelenyi"
+                                      data-yellowpicture="../images/wheels/bf3/134_100_1/diskg.png" style="background:green"
+                                      data-realpicture="../images/wheels/e8b/100_100_1/diskn.png"></span>
+
+<span  class="active yellow hint forOne" 
+                                      data-hint="violet"
+                                      data-yellowpicture="../images/wheels/bf3/134_100_1/diskpp.png" style="background:#8b00ff"
+                                      data-realpicture="../images/wheels/e8b/100_100_1/diskn.png"></span>
+
+<span  class="active yellow hint forOne" 
+                                      data-hint="white"
+                                      data-yellowpicture="../images/wheels/bf3/134_100_1/diskw.png" style="background:white"
+                                      data-realpicture="../images/wheels/e8b/100_100_1/diskn.png"></span>   
+ <span  class="active yellow hint forOne" 
+                                      data-hint="pink"
+                                      data-yellowpicture="../images/wheels/bf3/134_100_1/diskpink.png" style="background:pink"
+                                      data-realpicture="../images/wheels/e8b/100_100_1/diskn.png"></span>
+
+ <span  class="active yellow hint forOne" 
+                                      data-hint="golubou"
+                                      data-yellowpicture="../images/wheels/bf3/134_100_1/diskgol.png" style="background:#42aaff"
+                                      data-realpicture="../images/wheels/e8b/100_100_1/diskn.png"></span>
+
+
+ <span  class="active yellow hint forOne" 
+                                      data-hint="golubou"
+                                      data-yellowpicture="../images/wheels/bf3/134_100_1/disklime.png" style="background:#00ff00"
+                                      data-realpicture="../images/wheels/e8b/100_100_1/diskn.png"></span>
+
+ <span  class="active yellow hint forOne" 
+                                      data-hint="orange"
+                                      data-yellowpicture="../images/wheels/bf3/134_100_1/diskorange.png" style="background:orange"
+                                      data-realpicture="../images/wheels/e8b/100_100_1/diskn.png"></span>
+ <span  class="active yellow hint forOne" 
+                                      data-hint="metal"
+                                      data-yellowpicture="../images/wheels/bf3/134_100_1/diskmet.png" style="background:#808000"
+                                      data-realpicture="../images/wheels/e8b/100_100_1/diskn.png"></span>
+
+                                <div class="colorsSelected" data-step="6" data-intro="Выберите цвет дисков">
+
+
+                                <span class="active hint forOne" data-color="fb8800"
+                                              
+                                              data-realpicture="../images/wheels/e8b/100_100_1/diskn.png"
+                                              style="background:grey"><span class="SelColorArrow">
+                                          </span>
+                                <span class="colorRemove" style="display: none;"></span></span>
+
+
+
+
+                                <span class="active hint forOne" data-color="white"
+                                               
+                                              
+                                              data-realpicture="../images/wheels/e8b/100_100_1/diskp.png"
+                                              style="background:white"><span class="SelColorArrow"></span>
+ </span>
+
+
+                             </div>
+                            </div>
+                        </div>
+
+<!--\\\полировка + цвета-->
+                        <div id="selectPropertiesBlock">
+
+                            <div class="box visible">
+                                <div id="viewer">
+                                    <div id="sshot" style="position:absolute;width:910px;height:462px;background:#fff;">
+                                         <!--<img src="ставить потом картинку!!!"
+                                             style="position: absolute;z-index: 100;width: 200px;top: 36px;left: 36px;"
+                                             alt=""> -->
+                                             <!--// превью машина - картинка-->
+                                        <div id="img">
+                                            <div style="    position: absolute;    width: 910px;    height: 378px;    border: 5px solid #fff;"></div>
+
+                   <img id="otobrajenie"src="../images/avto/Honda/Civic/civic.png" alt="Honda"> 
+                                           </div><!--\\ превью машина - картинка-->
+
+                                        <div data-step="4" data-intro="Расположите правое колесо в арке" id="right_wheel" class="wheel"
+                                             style="position: relative; left: 671px; top: 209px;"><img
+                                                    id="right_wheel_image"
+                                                    src="../images/wheels/e8b/100_100_1/diskn.png" width="130" /
+                                            alt="Правое колесо">
+                                        </div>
+
+                                        <div data-step="3" data-intro="Расположите левое колесо в арке" id="left_wheel" class="wheel"
+                                             style="position: absolute; left: 126px; top: 209px;"><img
+                                                    id="left_wheel_image"
+                                                    src="../images/wheels/e8b/100_100_1/diskn.png" width="130" /
+                                            alt="Левое колесо">
+                                        </div>
+                                        
+                                        <div class="leftWheelDesc" style="position:absolute;bottom:20px;right:20px;">
+                                            <img src="images/vk.png">
+                                            <!--Визуальный калькулятор-->
+                                        </div>
+                                    </div>
+                                    <div style="width: 100%;position: absolute;bottom: 11px;">
+
+                                <button data-step="8" data-intro="Выбор изображения  на автомобиль" class="btn loadPrints" style="width:auto;position:absolute;left:45px;">Выбрать винил для примерки на авто</button>
+                                        
+                                        <!--//+- диска-->
+                                        <div id="zoom_block" data-step="2" data-intro="Подберите подходящий размер колес">
+                                            <div class="minus"><a href="#" title="Уменьшить диск"><img
+                                                            src="images/minus.png" alt="Уменьшить радиус"></a>
+                                            </div>
+                                            <div class="span"><img src="images/span.png"></div>
+                                            <div class="plus"><a href="#" title="Увеличить диск"><img
+                                                            src="images/plus.png" alt="Увеличить радиус"></a>
+                                            </div>
+                                        </div><!--\\+- диска-->
+                                    </div>
+                                    
+                                    <!--//podskazka-->
+                                    <div class="show_hint">
+                                        <div class="show_tips" style = "padding-left:350px; ">
+                                        <div class="show-tips" onclick="javascript:introJs().start();"></div>
+                                    </div>  </div>
+                                    <!--\\podskazka-->
+
+                                </div>
+
+                                <!--//цвет авто-->
+                                 <button data-step="7" data-intro="Выберите цвет автомобиля" class="btn" style="width:auto;position:absolute;top: 22px;left:150px;" id="cvet">Выбрать цвет кузова авто</button>
+                                <div id="colorpicker"style="position: absolute; left: 106px; top: 64px; z-index: 200; display: none;"></div>
+                                <!--\\цвет авто-->
+
+                                <!--1диски 2-радиус 3-левое 4-правое 5-полировка 6-цыет 7-цвет кузова 8-винил-->
+
+                                <!--//prokrutka-->
+                                <div class="carousel"style="padding-right:25px">
+                                    <div class="buttons carousel-button-left" style=""><a href="javascript:void(0);">Влево</a>
+                                    </div>
+                                    <div class="buttons carousel-button-right" style="padding-right:25px"><a href="javascript:void(0);">Вправо</a>
+                                    </div><!--\\prokrutka-->
+
+                                    <div class="shadow-block" style="padding-left:100px;">
+                                        
+
+                                        <div class="carousel-wrapper" data-step="1" data-intro="Выберите подходящую модель диска">
+                                            <div class="carousel-items">
+                                             <div class="carousel-block"
+                                                             data-title="Mazda 6"
+                                                             data-mirrorpicture="../images/wheels/6d5/134_100_1/6d538abe56994581afa6b97e0699e9d5.png"
+                                                             ><img
+                                                                    src="../images/wheels/b26/100_100_1/b26b8958601ede9c185989a2891f5c2c.png"
+                                                                    alt=""/></div>
+                                             <div class="carousel-block"
+                                                             data-title="Porsche"
+                                                             data-mirrorpicture="../images/wheels/a87/134_100_1/a879f7a771c4ad5cddd666475154a329.png"
+                                                             ><img
+                                                                    src="../images/wheels/592/100_100_1/592ace3ae72e92e13edfd2daabb40f16.png"
+                                                                    alt=""/></div>
+                                             <div class="carousel-block"
+                                                             data-title="MAE"
+                                                             data-mirrorpicture="../images/wheels/34b/134_100_1/maepolish.png"
+                                                             ><img
+                                                                    src="../images/wheels/273/100_100_1/maesing.png"
+                                                                    alt=""/></div>
+                                             <div class="carousel-block"
+                                                             data-title="Hamann"
+                                                             data-mirrorpicture="../images/wheels/a10/134_100_1/diskn.png"
+                                                             ><img
+                                                                    src="../images/wheels/e44/100_100_1/diskp.png"
+                                                                    alt=""/></div>
+                                            <div class="carousel-block"
+                                                             data-title="BMW 7"
+                                                             data-mirrorpicture="../images/wheels/1c6/134_100_1/1c6009955ff6abdb1cba0803a8363fed.png"
+                                                             ><img
+                                                                    src="../images/wheels/e8e/100_100_1/e8ed077c618a2a55ae5d9517ad57530a.png"
+                                                                    alt=""/></div>
+                                            <div class="carousel-block"
+                                                             data-title="A-Tech"
+                                                             data-mirrorpicture="../images/wheels/865/134_100_1/akulapoli.png"
+                                                             ><img
+                                                                    src="../images/wheels/46f/100_100_1/akulokoleso.png"
+                                                                    alt=""/></div>
+                                            <div class="carousel-block"
+                                                             data-title="ADV1"
+                                                             data-mirrorpicture="../images/wheels/270/134_100_1/adv1mirror.png"
+                                                             ><img
+                                                                    src="../images/wheels/571/100_100_1/adv1d.png"
+                                                                    alt=""/></div>
+                                             <div class="carousel-block"
+                                                             data-title="Hummer"
+                                                             data-mirrorpicture="../images/wheels/29f/134_100_1/zerkalo.png"
+                                                             ><img
+                                                                    src="../images/wheels/d21/100_100_1/hummer.png"
+                                                                    alt=""/></div>
+                                            <div class="carousel-block"
+                                                             data-title="SLR"
+                                                             data-mirrorpicture="../images/wheels/e4b/134_100_1/diskp.png"
+                                                             ><img
+                                                                    src="../images/wheels/1f5/100_100_1/diskn.png"
+                                                                    alt=""/></div>
+                                            <div class="carousel-block"
+                                                             data-title="Advan Racing"
+                                                             data-mirrorpicture="../images/wheels/56f/134_100_1/advanmirror.png"
+                                                             ><img
+                                                                    src="../images/wheels/078/100_100_1/advan.png"
+                                                                    alt=""/></div>
+                                            <div class="carousel-block"
+                                                             data-title="Momo"
+                                                             data-mirrorpicture="../images/wheels/f8b/134_100_1/momomirror.png"
+                                                             ><img
+                                                                    src="../images/wheels/97b/100_100_1/momo.png"
+                                                                    alt=""/></div>
+                                             <div class="carousel-block"
+                                                             data-title="BBS RR"
+                                                             data-mirrorpicture="../images/wheels/565/134_100_1/565265df59cb9c5ae2c4e1ea0e5d5f9f.png"
+                                                             ><img
+                                                                    src="../images/wheels/6c4/100_100_1/6c4efb3f81bd346723a4ea90836c4b65.png"
+                                                                    alt=""/></div>
+                                             <div class="carousel-block"
+                                                             data-title="Volvo Ocean Race"
+                                                             data-mirrorpicture="../images/wheels/39f/134_100_1/volvoz.png"
+                                                             ><img
+                                                                    src="../images/wheels/47e/100_100_1/volvo.png"
+                                                                    alt=""/></div>
+                                            <div class="carousel-block"
+                                                             data-title="Infinity"
+                                                             data-mirrorpicture="../images/wheels/bae/134_100_1/bae1e0c1d14b50b2b19c3db1b2bcfe9e.png"
+                                                             ><img
+                                                                    src="../images/wheels/db1/100_100_1/db1eb3cbdc88e75dbce18884844d6739.png"
+                                                                    alt=""/></div>
+                                            <div class="carousel-block"
+                                                             data-title="BBS"
+                                                             data-mirrorpicture="../images/wheels/71a/134_100_1/bbsmirror.png"
+                                                             ><img
+                                                                    src="../images/wheels/06d/100_100_1/bbs.png"
+                                                                    alt=""/></div>
+                                            <div class="carousel-block"
+                                                             data-title="AMG"
+                                                             data-mirrorpicture="../images/wheels/a80/134_100_1/amg_polish.png"
+                                                             ><img                                                                    src="../images/wheels/2b4/100_100_1/amgn.png"
+                                                                    alt=""/></div>
+                                             <div class="carousel-block select"
+                                                             data-title="TechArt"
+                                                             data-mirrorpicture="../images/wheels/bf3/134_100_1/diskp.png"
+                                                             ><img src="../images/wheels/e8b/100_100_1/diskn.png"
+                                                                    alt=""/></div>
+                                                    </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="box" id="autoBlock">
+                       
+                           </div>
+
+  <!-- Выбор дисков _____________________________________________________________________SelectDisk-->                          
+                            <div class="box">
+                                <div class="selectAutoBlock">
+                                    <div class="headerTitleAndButton">
+                                        <h2>Выбор моделей дисков</h2>
+                                           </div>
+                                             <div class="BlockSelectrAuto selectDisk">
+                                            <!--<класс ="selectDisk">-->
+                                            <table cellpadding="0" cellspacing="0" class="selectDisk">
+                                                <tr>
+                                                                                                                                                                                                                    
+                                                        <td class="verticalBlock"><div class="images disk select">
+                                                            <table>
+                                                                <tr>
+                                                                    <td class="ImgTDAuto">
+                                                                        <img data-picture="../images/wheels/b26/100_100_1/b26b8958601ede9c185989a2891f5c2c.png"
+                                                                             
+                                                                             data-mirrorpicture="../images/wheels/6d5/134_100_1/6d538abe56994581afa6b97e0699e9d5.png"
+                                                                             src="../images/wheels/b26/134_111_1/b26b8958601ede9c185989a2891f5c2c.png">
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                                                                                                                                                                                                                                                    
+                                                            <td class="verticalBlock"><div class="images disk select">
+                                                            <table>
+                                                                <tr>
+                                                                    <td class="ImgTDAuto">
+                                                                        <img data-picture="../images/wheels/592/100_100_1/592ace3ae72e92e13edfd2daabb40f16.png"
+                                                                             data-mirrorpicture="../images/wheels/a87/134_100_1/a879f7a771c4ad5cddd666475154a329.png"
+                                                                             src="../images/wheels/592/134_111_1/592ace3ae72e92e13edfd2daabb40f16.png">
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+
+                                                        <td class="verticalBlock"><div class="images disk select">
+                                                            <table>
+                                                                <tr>
+                                                                    <td class="ImgTDAuto">
+                                                                        <img data-picture="../images/wheels/273/100_100_1/maesing.png"
+                                                                             
+                                                                             data-mirrorpicture="../images/wheels/34b/134_100_1/maepolish.png"
+                                                                             src="../images/wheels/273/134_111_1/maesing.png">
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                                                                                                                                                                                                                                                    
+                                                             <td class="verticalBlock"><div class="images disk select">
+                                                            <table>
+                                                                <tr>
+                                                                    <td class="ImgTDAuto">
+                                                                        <img data-picture="../images/wheels/e44/100_100_1/diskp.png"
+                                                                             data-mirrorpicture="../images/wheels/a10/134_100_1/diskn.png"
+                                                                             src="../images/wheels/e44/134_111_1/diskp.png">
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                        <td class="verticalBlock"><div class="images disk select">
+                                                            <table>
+                                                                <tr>
+                                                                    <td class="ImgTDAuto">
+                                                                        <img data-picture="../images/wheels/e8e/100_100_1/e8ed077c618a2a55ae5d9517ad57530a.png"
+                                                                             
+                                                                             data-mirrorpicture="../images/wheels/1c6/134_100_1/1c6009955ff6abdb1cba0803a8363fed.png"
+                                                                             src="../images/wheels/e8e/134_111_1/e8ed077c618a2a55ae5d9517ad57530a.png">
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                                                                                                                                                                                                                                                    
+                                                           <td class="verticalBlock"><div class="images disk select">
+                                                            <table>
+                                                                <tr>
+                                                                    <td class="ImgTDAuto">
+                                                                        <img data-picture="../images/wheels/46f/100_100_1/akulokoleso.png"
+                                                                             data-mirrorpicture="../images/wheels/865/134_100_1/akulapoli.png"
+                                                                             src="../images/wheels/46f/134_111_1/akulokoleso.png">
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                        <td class="verticalBlock"><div class="images disk select">
+                                                            <table>
+                                                                <tr>
+                                                                    <td class="ImgTDAuto">
+                                                                        <img data-picture="../images/wheels/571/100_100_1/adv1d.png"
+                                                                             
+                                                                             data-mirrorpicture="../images/wheels/270/134_100_1/adv1mirror.png"
+                                                                             src="../images/wheels/571/134_111_1/adv1d.png">
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                                                                                                                                                                                                                                                    
+                                                           <td class="verticalBlock"><div class="images disk select">
+                                                            <table>
+                                                                <tr>
+                                                                    <td class="ImgTDAuto">
+                                                                        <img data-picture="../images/wheels/d21/100_100_1/hummer.png"
+                                                                             
+                                                                             data-mirrorpicture="../images/wheels/29f/134_100_1/zerkalo.png"
+                                                                             src="../images/wheels/d21/134_111_1/hummer.png">
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+
+                                                        <td class="verticalBlock"><div class="images disk select">
+                                                            <table>
+                                                                <tr>
+                                                                    <td class="ImgTDAuto">
+                                                                        <img data-picture="../images/wheels/1f5/100_100_1/diskn.png"
+                                                                             
+                                                                             data-mirrorpicture="../images/wheels/e4b/134_100_1/diskp.png"
+                                                                             src="../images/wheels/1f5/134_111_1/diskn.png">
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                                                                                                                                                                                                                                                    
+                                                           <td class="verticalBlock"><div class="images disk select">
+                                                            <table>
+                                                                <tr>
+                                                                    <td class="ImgTDAuto">
+                                                                        <img data-picture="../images/wheels/078/100_100_1/advan.png"
+                                                                             
+                                                                             data-mirrorpicture="../images/wheels/56f/134_100_1/advanmirror.png"
+                                                                             src="../upload/resize_cache/iblock/078/134_111_1/advan.png">
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+
+                                                        <td class="verticalBlock"><div class="images disk select">
+                                                            <table>
+                                                                <tr>
+                                                                    <td class="ImgTDAuto">
+                                                                        <img data-picture="../images/wheels/97b/100_100_1/momo.png"
+                                                                             
+                                                                             data-mirrorpicture="../images/wheels/f8b/134_100_1/momomirror.png"
+                                                                             src="../images/wheels/97b/134_111_1/momo.png">
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                                                                                                                                                                                                                                                    
+                                                            <td class="verticalBlock"><div class="images disk select">
+                                                            <table>
+                                                                <tr>
+                                                                    <td class="ImgTDAuto">
+                                                                        <img data-picture="../images/wheels/6c4/100_100_1/6c4efb3f81bd346723a4ea90836c4b65.png"
+                                                                             
+                                                                             data-mirrorpicture="../images/wheels/565/134_100_1/565265df59cb9c5ae2c4e1ea0e5d5f9f.png"
+                                                                             src="../images/wheels/6c4/134_111_1/6c4efb3f81bd346723a4ea90836c4b65.png">
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                        <td class="verticalBlock"><div class="images disk select">
+                                                            <table>
+                                                                <tr>
+                                                                    <td class="ImgTDAuto">
+                                                                        <img data-picture="../images/wheels/47e/100_100_1/volvo.png"
+                                                                             
+                                                                             data-mirrorpicture="../images/wheels/39f/134_100_1/volvoz.png"
+                                                                             src="../images/wheels/47e/134_111_1/volvo.png">
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                                                                                                                                                                                                                                                    
+                                                          <td class="verticalBlock"><div class="images disk select">
+                                                            <table>
+                                                                <tr>
+                                                                    <td class="ImgTDAuto">
+                                                                        <img data-picture="../images/wheels/db1/100_100_1/db1eb3cbdc88e75dbce18884844d6739.png"
+                                                                             
+                                                                             data-mirrorpicture="../images/wheels/bae/134_100_1/bae1e0c1d14b50b2b19c3db1b2bcfe9e.png"
+                                                                             src="../images/wheels/db1/134_111_1/db1eb3cbdc88e75dbce18884844d6739.png">
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+
+                                                        <td class="verticalBlock"><div class="images disk select">
+                                                            <table>
+                                                                <tr>
+                                                                    <td class="ImgTDAuto">
+                                                                        <img data-picture="../images/wheels/06d/100_100_1/bbs.png"
+                                                                             
+                                                                             data-mirrorpicture="../images/wheels/71a/134_100_1/bbsmirror.png"
+                                                                             src="../images/wheels/06d/134_111_1/bbs.png">
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                                                                                                                                                                                                                                                    
+                                                           <div class="images disk select">
+                                                            <table>
+                                                                <tr>
+                                                                    <td class="ImgTDAuto">
+                                                                        <img data-picture="../images/wheels/2b4/100_100_1/amgn.png"
+                                                                             
+                                                                             data-mirrorpicture="../images/wheels/a80/134_100_1/amg_polish.png"
+                                                                             src="../images/wheels/2b4/134_111_1/amgn.png">
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+
+                                                        <td class="verticalBlock"><div class="images disk select">
+                                                            <table>
+                                                                <tr>
+                                                                    <td class="ImgTDAuto">
+                                                                        <img data-picture="../images/wheels/e8b/100_100_1/diskn.png"
+                                                                             
+                                                                             data-mirrorpicture="../images/wheels/bf3/134_100_1/diskp.png"
+                                                                             src="../images/wheels/e8b/134_111_1/diskn.png">
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                </tr>
+                                            </table>
+                                        </div>                                                                                                        
+
+                                </div>
+                            </div>
+<!--< цвета дисков>--> 
+                            <div class="box">
+                                <div class="selectAutoBlock">
+                                    
+                                            <div class="BlockSelectrAuto">
+                                            <!--<ul class="selectColor">-->
+                                           
+                                            <table cellpadding="0" cellspacing="0" class="selectColor Avaliable"
+                                                   style="display:none;">
+                                                <tr>
+                                                                                                                                                                                                                    
+                                                    <td class="verticalBlock">                                                     
+                                                 </tr>
+                                            </table>
+                                        </div>
+                                </div>
+                            </div>
+   
+
+
+<!--< выбор винилов________________________________________________________________________ selectColor>-->
+
+                            <div class="box">
+                                <div class="selectAutoBlock">
+                                	<!--<ul class="selectColor">-->
+                                    <div class="headerTitleAndButton">
+                                        <h2>Выбор винила</h2></div>
+                                      <div class="BlockSelectrAuto selectPrint">
+                                            
+                                            <table cellpadding="0" cellspacing="0" class="selectPrint">
+                                                <tr>
+                                                                                                                                                                                                                    
+                                                        <td class="verticalBlock"> <div class="images print">
+                                                            <table>
+                                                                <tr>
+                                                                    <td class="ImgTDAuto">
+                                                                        <img data-print="../uimages/vinil/no.png"
+                                                                             data-position="center top"
+                                                                             data-repeat="no-repeat"
+                                                                             src="../images/vinil/no.png"
+                                                                             title="Графити"
+                                                                             alt="Графити">
+                                                                    </td>
+                                                                 </tr>
+                                                            </table>
+                                                        </div>
+                                                                                                                                                                                                                                                                                    
+                                                            <div class="images print">
+                                                            <table>
+                                                                <tr>
+                                                                      <td class="ImgTDAuto">
+                                                                        <img data-print="../images/vinil/pokemon_go_logo.png"
+                                                                             data-position="50% 65%"
+                                                                             data-repeat="no-repeat"
+                                                                             src="../images/vinil/pokemon_go_logo.png"
+                                                                             title="Pokemon Go"
+                                                                             alt="Pokemon Go">
+                                                                    </td>
+                                                                    
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+
+
+                                                        <td class="verticalBlock"><div class="images print">
+                                                            <table>
+                                                                <tr>
+                                                                    <td class="ImgTDAuto">
+                                                                        <img data-print="../images/vinil/dragon_png994.png"
+                                                                             data-position=""
+                                                                             data-repeat="no-repeat"
+                                                                             src="../images/vinil/dragon_png994.png"
+                                                                             title="Дракон"
+                                                                             alt="Дракон">
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                                                                                                                                                                                                                                                    
+                                                          <div class="images print">
+                                                            <table>
+                                                                <tr>
+                                                                    <td class="ImgTDAuto">
+                                                                        <img data-print="../images/vinil/the_simpson_vector.png"
+                                                                             data-position=""
+                                                                             data-repeat="no-repeat"
+                                                                             src="../images/vinil/the_simpson_vector.png"
+                                                                             title="Симпсоны"
+                                                                             alt="Симпсоны">
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                                                                                                                            
+                                                        <td class="verticalBlock"><div class="images print">
+                                                            <table>
+                                                                <tr>
+                                                                    <td class="ImgTDAuto">
+                                                                        <img data-print="../images/vinil/smile.png"
+                                                                             data-position=""
+                                                                             data-repeat="no-repeat"
+                                                                             src="../images/vinil/smile.png"
+                                                                             title="Улыбка"
+                                                                             alt="Улыбка">
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                                                                                                                                                                                                                                                    
+                                                        <div class="images print">
+                                                            <table>
+                                                                <tr>
+                                                                    <td class="ImgTDAuto">
+                                                                        <img data-print="../images/vinil/cool_abstract_psd38263.png"
+                                                                             data-position=""
+                                                                             data-repeat="no-repeat"
+                                                                             src="../images/vinil/cool_abstract_psd38263.png"
+                                                                             title="Абстракция цветная"
+                                                                             alt="Абстракция цветная">
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+
+                                                        <td class="verticalBlock"><div class="images print">
+                                                            <table>
+                                                                <tr>
+                                                                    <td class="ImgTDAuto">
+                                                                        <img data-print="../images/vinil/rzhavchina.jpg"
+                                                                             data-position=""
+                                                                             data-repeat="no-repeat"
+                                                                             src="../images/vinil/rzhavchina.jpg"
+                                                                             title="Ржавчина"
+                                                                             alt="Ржавчина">
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                                                                                                                                                                                                                                                    
+                                                        <div class="images print">
+                                                            <table>
+                                                                <tr>
+                                                                    <td class="ImgTDAuto">
+                                                                        <img data-print="../images/vinil/tsvety.jpg"
+                                                                             data-position=""
+                                                                             data-repeat="no-repeat"
+                                                                             src="../images/vinil/tsvety.jpg"
+                                                                             title="Цветы"
+                                                                             alt="Цветы">
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+
+
+                                                        <td class="verticalBlock"><div class="images print">
+                                                            <table>
+                                                                <tr>
+                                                                    <td class="ImgTDAuto">
+                                                                        <img data-print="../images/vinil/flag-rb.png"
+                                                                             data-position=""
+                                                                             data-repeat="no-repeat"
+                                                                             src="../images/vinil/flag-rb.png"
+                                                                             title="Флаг РБ"
+                                                                             alt="Флаг РБ">
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                                                                                                                                                                                                                                                    
+                                                        <div class="images print">
+                                                            <table>
+                                                                <tr><td class="ImgTDAuto">
+                                                                        <img data-print="../images/vinil/grsu.jpg"
+                                                                             data-position=""
+                                                                             data-repeat="no-repeat"
+                                                                             src="../images/vinil/grsu.jpg"
+                                                                             title="ГРГУ"
+                                                                             alt="ГРГУ">
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                        <td class="verticalBlock"><div class="images print">
+                                                            <table>
+                                                                <tr>
+                                                                    <td class="ImgTDAuto">
+                                                                        <img data-print="../images/vinil/kozha.jpg"
+                                                                             data-position=""
+                                                                             data-repeat="no-repeat"
+                                                                             src="../images/vinil/kozha.jpg"
+                                                                             title="Натуральная кожа"
+                                                                             alt="Натуральная кожа">
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                                                                                                                                                                                                                                                    
+                                                         <div class="images print">
+                                                            <table>
+                                                                <tr>
+                                                                    <td class="ImgTDAuto">
+                                                                        <img data-print="../images/vinil/flag_britanii.png"
+                                                                             data-position=""
+                                                                             data-repeat="no-repeat"
+                                                                             src="../images/vinil/flag_britanii.png"
+                                                                             title="Флаг Великобритании"
+                                                                             alt="Флаг Великобритании">
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+
+                                                        <td class="verticalBlock"> <div class="images print">
+                                                            <table>
+                                                                <tr>
+                                                                    <td class="ImgTDAuto">
+                                                                        <img data-print="../images/vinil/sakura.png"
+                                                                             data-position="right top"
+                                                                             data-repeat="no-repeat"
+                                                                             src="../images/vinil/sakura.png"
+                                                                             title="Сакура"
+                                                                             alt="Сакура">
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                                                                                                                                                                                                                                                    
+                                                       <div class="images print">
+                                                            <table>
+                                                                <tr>
+                                                                    <td class="ImgTDAuto">
+                                                                    <img data-print="../images/vinil/metal_chain_fence_png_stock_cc1_large_by_annamae22-da7lguz.png"
+                                                                             data-position=""
+                                                                             data-repeat="no-repeat"
+                                                                             src="../images/vinil/metal_chain_fence_png_stock_cc1_large_by_annamae22-da7lguz.png"
+                                                                             title="Сетка"
+                                                                             alt="Сетка">
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+
+                                                        <td class="verticalBlock"> <div class="images print">
+                                                            <table>
+                                                                <tr>
+                                                                    <td class="ImgTDAuto">
+                                                                        <img data-print="../images/vinil/gzhel.png"
+                                                                             data-position=""
+                                                                             data-repeat="no-repeat"
+                                                                             src="../images/vinil/gzhel.png"
+                                                                             title="Гжель"
+                                                                             alt="Гжель">
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                                                                                                                                                                                                                                                    
+                                                        <div class="images print">
+                                                            <table>
+                                                                <tr>
+                                                                    <td class="ImgTDAuto">
+                                                                        <img data-print="../images/vinil/khokhloma.png"
+                                                                             data-position=""
+                                                                             data-repeat="no-repeat"
+                                                                             src="../images/vinil/khokhloma.png"
+                                                                             title="Хохлома"
+                                                                             alt="Хохлома">
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+
+                                                        <td class="verticalBlock"><div class="images print">
+                                                            <table>
+                                                                <tr>
+                                                                    <td class="ImgTDAuto">
+                                                                        <img data-print="../images/vinil/stal.jpg"
+                                                                             data-position=""
+                                                                             data-repeat="no-repeat"
+                                                                             src="../images/vinil/stal.jpg"
+                                                                             title="Сталь"
+                                                                             alt="Сталь">
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                                                                                                                                                                                                                                                    
+                                                        <div class="images print">
+                                                            <table>
+                                                                <tr>
+                                                                <td class="ImgTDAuto">
+                                                                        <img data-print="../images/vinil/karbon.jpg"
+                                                                             data-position=""
+                                                                             data-repeat="no-repeat"
+                                                                             src="../images/vinil/karbon.jpg"
+                                                                             title="Карбон"
+                                                                             alt="Карбон">
+                                                                    </td>    
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+
+
+                                                        <td class="verticalBlock"><div class="images print">
+                                                            <table>
+                                                                <tr>
+                                                                    <td class="ImgTDAuto">
+                                                                        <img data-print="../images/vinil/1845.png"
+                                                                             data-position="-2% 24%"
+                                                                             data-repeat="no-repeat"
+                                                                             src="../images/vinil/1845.png"
+                                                                             title="Языки пламени"
+                                                                             alt="Языки пламени">
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                                                                                                                                                                                                                                                    
+                                                       <div class="images print">
+                                                            <table>
+                                                                <tr>
+                                                                    <td class="ImgTDAuto">
+                                                                        <img data-print="../images/vinil/post_56414_1193911204.jpg"
+                                                                             data-position=""
+                                                                             data-repeat="repeat"
+                                                                             src="../images/vinil/post_56414_1193911204.jpg"
+                                                                             title="Космический корабль"
+                                                                             alt="Космический корабль">
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+
+
+                                                        <td class="verticalBlock"><div class="images print">
+                                                            <table>
+                                                                <tr>
+                                                                    <td class="ImgTDAuto">
+                                                                        <img data-print="../images/vinil/leopard.jpg"
+                                                                             data-position=""
+                                                                             data-repeat="no-repeat"
+                                                                             src="../images/vinil/leopard.jpg"
+                                                                             title="Леопард"
+                                                                             alt="Леопард">
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                                                                                                                                                                                                                                                    
+                                                       <div class="images print">
+                                                            <table>
+                                                                <tr>
+                                                                  <td class="ImgTDAuto">
+                                                                        <img data-print="../images/vinil/camo.jpg"
+                                                                             data-position=""
+                                                                             data-repeat="no-repeat"
+                                                                             src="../images/vinil/camo.jpg"
+                                                                             title="Камуфляж"
+                                                                             alt="Камуфляж">
+                                                                         </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+
+                                                        <td class="verticalBlock"> <div class="images print">
+                                                            <table>
+                                                                <tr>
+                                                                    <td class="ImgTDAuto">
+                                                                        <img data-print="../images/vinil/zebra.png"
+                                                                             data-position=""
+                                                                             data-repeat="repeat"
+                                                                             src="../images/vinil/zebra.png"
+                                                                             title="Зебра"
+                                                                             alt="Зебра">
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                          <div class="images print">
+                                                            <table>
+                                                                <tr>
+                                                                  <td class="ImgTDAuto">
+                                                                        <img data-print="../images/vinil/igra.jpg"
+                                                                             data-position=""
+                                                                             data-repeat="no-repeat"
+                                                                             src="../images/vinil/igra.jpg"
+                                                                             title="Игра престолов"
+                                                                             alt="Игра престолов">
+                                                                         </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    <div class="MotoOk"><a href="#">Выбрать</a></div>
+                                    <a class="selectCancel" href="#">Отмена</a>
+                                    <div class="ColorTxtDesc no">
+                                           <p>Выберите изображение, которое Вы хотите нанести на автомобиль. </p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+     
+<!--< выбор винилов________________________________________________________________________ selectColor>-->
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/jquery.ui.core.js"></script><!-- tsvet kuzova-->
+<script type="text/javascript" src="js/kuzov.color.js"></script><!-- tsvet kuzova-->
+<script type="text/javascript" src="js/carousel.js"></script><!-- prokrutka kolesa-->
+<script type="text/javascript" src="js/osnovnoy.js?1"></script><!-- События страницы: выбор колес, винилов, цветов, меню, кнопки-->
+<script type="text/javascript" src="js/podskazka.js"></script><!-- podskazka-->
+<!--ЦВЕТ АВТО-->
+<script>
+                                    $(document).ready(function (e) {
+                                        $("#cvet").click(function () {
+                                            $("#colorpicker").toggle();
+
+                                            return false;
+                                        });
+
+                                        $("#colorpicker").mouseout(function () {
+
+                                            $("#colorpicker").css("display", "none");
+                                        });
+                                        $("#colorpicker").mouseover(function () {
+                                            $("#colorpicker").css("display", "block");
+                                        });
+                                    });
+                                </script>
+
+<script type="text/javascript">
+        $(document).ready(function () {
+            $('#colorpicker').farbtastic('#otobrajenie');
+        });
+    </script>
+<!--ЦВЕТ АВТО-->
+</body>
+<!--____________________________________Окно с машиной______________________________-->
+
+
+
+</html>

@@ -1,0 +1,349 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.ico" />
+
+  
+</head>
+ <!--____________________________________Навигация______________________________-->
+<body>
+  <link rel="stylesheet" href="css/styleMenu.css">
+  <link rel="stylesheet" href="css/right-nav-styleMenu.css">
+<input type="checkbox" id="nav-toggle" hidden>
+    
+    <nav class="nav">
+      
+   
+        <label for="nav-toggle" class="nav-toggle" onclick></label>
+    
+        <h2 class="logo"> 
+            <a>Навигация</a> 
+        </h2>
+        <ul>
+            <li><a href="t_calc.html">Шинный калькулятор</a>
+            <li><a href="avto_podbor.html">Подбор по автомобилю</a>
+            <li><a href="vizual.html">3D модель</a>
+            <li><a href="../kreator/index.html">Визуальный просмотр</a>
+            <li><a href="https://tyrestretch.com/">Коллекция Tyresrtetch.com</a>
+            
+        </ul>
+    </nav>
+</body>
+<!--____________________________________Навигация______________________________-->
+<head>
+<meta charset="utf-8">
+<title>Шинный калькулятор</title>
+<meta name="referrer" content="always">
+<link href="css/style.css" rel="stylesheet" type="text/css" >
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="js/min.js"></script>
+<script type="text/javascript" src="js/hs/full.js"></script>
+<script type="text/javascript" src="js/menu.js"></script>
+
+<link href="css/calculator.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/calculator.js"></script>
+<script type="text/javascript"></script>
+</head>
+
+
+
+<body>
+   
+ <p><img src="images/prev.png" width="1518" height="150" alt="Превью"></p>
+ <table width="100%" border="0" cellspacing="0" cellpadding="0"><tr>
+<td valign="top" class="body1"><div id="corner-cart" style="display:none">
+ <td width="100%" valign="top" class="body3"><div class="blk0">
+  <div class="blk1"><H1 class="blk1">Инструкция</H1></div>
+  <div class="blk2"></div>
+  <div class="lblock_body">
+ <h2><strong>Когда изнашиваются заводские шины или просто хочется поставить другие колеса, то возникает вопрос: а какие размеры шин подойдут моей машине? Дело в том, что каждый автомобиль рассчитан под определенный диаметр колес и ширину протектора. Обычно, данная информация содержится на оборотной стороне крышки бензобака или в документах по эксплуатации. Если отклониться от этих типоразмеров больше чем на 2-3 процента, то расход бензина вырастет, спидометр начнет врать, а в случае большой разницы вождение может стать просто опасным.Но как подобрать шины правильного размера, если на профиле написаны какие-то непонятные цифры? Не измерять же их линейкой, ей богу. Именно для этих целей и создан данный шинный калькулятор. Он позволяет определить разницу между шинами в сантиметрах. В частности, с помощью шинного калькулятора вы можете рассчитать и сравнить диаметр шины, ширину протектора, высоту профиля и окружность. Дополнительно, калькулятор определяет потенциальные различия в показателях скорости на спидометре, изменения клиренса и разницу в количестве оборотов на один километр (или милю). </strong></h2>
+ </div>
+</div>
+
+
+ <div style="background-color:#FFFFFF;   padding:20px 20px 20px 20px">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="50%" rowspan="2"><div class="speedometer" style="margin-bottom:20px"> <img src="images/speedometer.gif" width="224" height="177" alt="/÷" />
+          <ul id="newSpeed">
+            <li id="speed10">10</li>
+            <li id="speed20">20</li>
+            <li id="speed30">30</li>
+            <li id="speed40">40</li>
+            <li id="speed50">50</li>
+            <li id="speed60">60</li>
+            <li id="speed70">70</li>
+            <li id="speed80">80</li>
+            <li id="speed90">90</li>
+            <li id="speed100">100</li>
+            <li id="speed110">110</li>
+            <li id="speed120">120</li>
+            <li id="speed130">130</li>
+            <li id="speed140">140</li>
+            <li id="speed150">150</li>
+            <li id="speed160">160</li>
+            <li id="speed170">170</li>
+            <li id="speed180">180</li>
+            <li id="speed190">190</li>
+          </ul>
+ </div>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" style="float:left">
+          <tr>
+            <td><label for="oldWidth" id="small"><font id="black">Старый размер:</label>
+              <br />
+              <select name="select" class="widthField" id="oldWidth">
+                <option value="145">145</option>
+                <option value="155">155</option>
+                <option value="165">165</option>
+                <option value="175" selected="selected">175</option>
+                <option value="185">185</option>
+                <option value="195">195</option>
+                <option value="205">205</option>
+                <option value="215">215</option>
+                <option value="225">225</option>
+                <option value="235">235</option>
+                <option value="245">245</option>
+                <option value="255">255</option>
+                <option value="265">265</option>
+                <option value="275">275</option>
+                <option value="285">285</option>
+                <option value="295">295</option>
+                <option value="305">305</option>
+                <option value="315">315</option>
+                <option value="325">325&nbsp;</option>
+              </select>
+               <span class="slash">/</span>
+
+              <select name="select2" class="profileField" id="oldProfile">
+                <option value="30">30</option>
+                <option value="35">35</option>
+                <option value="40">40</option>
+                <option value="45">45</option>
+                <option value="50">50</option>
+                <option value="55">55</option>
+                <option value="60">60</option>
+                <option value="65">65</option>
+                <option value="70" selected="selected">70</option>
+                <option value="75">75</option>
+                <option value="80">80</option>
+                <option value="85">85&nbsp;</option>
+              </select>
+              <span class="r">R</span>
+              <select name="select2" class="radiusField" id="oldDiameter">
+                <option value="12">12</option>
+                <option value="13" selected="selected">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="22">22&nbsp;</option>
+              </select></td>
+
+            <td><label for="newWidth" id="small"><font id="red">Новый размер:</font></label>
+              <br />
+              <select name="select2" class="widthField" id="newWidth">
+                <option value="145">145</option>
+                <option value="155">155</option>
+                <option value="165">165</option>
+                <option value="175" selected="selected">175</option>
+                <option value="185">185</option>
+                <option value="195">195</option>
+                <option value="205">205</option>
+                <option value="215">215</option>
+                <option value="225">225</option>
+                <option value="235">235</option>
+                <option value="245">245</option>
+                <option value="255">255</option>
+                <option value="265">265</option>
+                <option value="275">275</option>
+                <option value="285">285</option>
+                <option value="295">295</option>
+                <option value="305">305</option>
+                <option value="315">315</option>
+                <option value="325">325&nbsp;</option>
+              </select>
+              <span class="slash">/</span>
+              <select name="select2" class="profileField" id="newProfile">
+                <option value="30">30</option>
+                <option value="35">35</option>
+                <option value="40">40</option>
+                <option value="45">45</option>
+                <option value="50">50</option>
+                <option value="55">55</option>
+                <option value="60">60</option>
+                <option value="65">65</option>
+                <option value="70" selected="selected">70</option>
+                <option value="75">75</option>
+                <option value="80">80</option>
+                <option value="85">85&nbsp;</option>
+              </select>
+              <span class="r">R</span>
+              <select name="select2" class="radiusField" id="newDiameter">
+                <option value="12">12</option>
+                <option value="13" selected="selected">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="22">22&nbsp;</option>
+              </select></td>
+          </tr>
+        </table>
+        <table class="resultsTable">
+          <tr class="header">
+            <td></td>
+            <td class="num">Старый размер</td>
+            <td class="num" style="color:red">Новый размер</td>
+            <td class="num" style="color:#0000FF">Отклонения</td>
+          </tr>
+          <tr>
+            <td nowrap="nowrap" id="labelShemeL"><b>L</b>&nbsp;&mdash; Ширина шины, мм</td>
+            <td class="num" id="oldL"></td>
+            <td class="num" id="newL"></td>
+            <td class="num result" id="deltaL"></td>
+          </tr>
+          <tr>
+            <td nowrap="nowrap" id="labelShemeH"><b>H</b>&nbsp;&mdash; Высота профиля, мм</td>
+            <td class="num" id="oldH"></td>
+            <td class="num" id="newH"></td>
+            <td class="num result" id="deltaH"></td>
+          </tr>
+          <tr>
+            <td nowrap="nowrap" id="labelShemeD"><b>d</b>&nbsp;&mdash; Внутренний диаметр, мм</td>
+            <td class="num" id="oldD"></td>
+            <td class="num" id="newD"></td>
+            <td class="num result" id="deltaD"></td>
+          </tr>
+          <tr>
+            <td nowrap="nowrap" id="labelShemeDD"><b>D</b>&nbsp;&mdash; Внешний диаметр, мм</td>
+            <td class="num" id="oldDD"></td>
+            <td class="num" id="newDD"></td>
+            <td class="num result" id="deltaDD"></td>
+          </tr>
+        </table></td>
+      <td valign="top"><p>Шинный калькулятор – является инструментом для правильной замены установленных на автомобиле покрышек. Если вы решили изменить размеры шины данная программа поможет вам узнать, на сколько изменяются её внешние показатели, просчитать погрешность спидометра, следить за изменениями дорожного просвета.
+       
+
+       </p></td>
+    </tr>
+    <tr>
+      <td valign="bottom"><div class="sheme"> <img src="images/sheme.gif" width="132" height="251" alt="sheme" />
+          <div class="shemeLegend" id="shemeLegend"> <img src="images/sheme-dd.gif" width="132" height="251" alt="D" id="shemeDD" /> <img src="images/sheme-d.gif" width="132" height="251" alt="d" id="shemeD" /> <img src="images/sheme-l.gif" width="132" height="251" alt="L" id="shemeL" /> <img src="images/sheme-h.gif" width="132" height="251" alt="H" id="shemeH" /> </div>
+        </div></td>
+    </tr>
+  </table>
+</div>
+
+
+<h2 style="margin-left:20px">Расчет ширины диска</h2>
+<div style="background-color:#FFFFFF; padding:20px 20px 20px 20px">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td nowrap="nowrap"><div class="calcValues" id="small">
+          <label for="tireWidth">Типоразмер шины:</label>
+          <select name="select3" class="widthField" id="tireWidth">
+            <option value="145">145</option>
+            <option value="155">155</option>
+            <option value="165">165</option>
+            <option value="175" selected="selected">175</option>
+            <option value="185">185</option>
+            <option value="195">195</option>
+            <option value="205">205</option>
+            <option value="215">215</option>
+            <option value="225">225</option>
+            <option value="235">235</option>
+            <option value="245">245</option>
+            <option value="255">255</option>
+            <option value="265">265</option>
+            <option value="275">275</option>
+            <option value="285">285</option>
+            <option value="295">295</option>
+            <option value="305">305</option>
+            <option value="315">315</option>
+            <option value="325">325&nbsp;</option>
+          </select>
+          <span class="slash">/</span>
+          <select name="select3" class="profileField" id="tireProfile">
+            <option value="30">30</option>
+            <option value="35">35</option>
+            <option value="40">40</option>
+            <option value="45">45</option>
+            <option value="50">50</option>
+            <option value="55">55</option>
+            <option value="60">60</option>
+            <option value="65">65</option>
+            <option value="70" selected="selected">70</option>
+            <option value="75">75</option>
+            <option value="80">80</option>
+            <option value="85">85&nbsp;</option>
+          </select>
+          <span class="r">R</span>
+          <select name="select3" class="radiusField" id="tireDiameter">
+            <option value="12">12</option>
+            <option value="13" selected="selected">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="22">22&nbsp;</option>
+          </select>
+        </div>
+        <div class="resultsTable">
+        <div class="results">
+          <font class="rb">Параметры диска (в дюймах)</font><br /><br />
+          <table>
+            <tr>
+              <td colspan="2">Диаметр (D):</td>
+              <td id="discDiameter" class="num"></td>
+            </tr>
+            <tr>
+              <td class="width">Ширина (L):</td>
+              <td><font color="green"> минимальная (J)</font></td>
+              <td id="discWidthMin" class="num"></td>
+            </tr>
+            <tr class="section">
+              <td></td>
+              <td><font color="red">максимальная (J)</font></td>
+              <td id="discWidthMax" class="num"></td>
+            </tr>
+          </table>
+        </div></div></td>
+      <td style="padding-left:30px" valign="top">При изменении параметров шин вам обязательно необходимо свериться с совместимостью ширины диска установленным на вашем автомобиле. Этот раздел программы – шинный калькулятор – покажет вам минимальные и максимальные показатели ширины диска подходящие под выбранный вами типоразмер покрышек</td>
+    </tr>
+  </table>
+</div>
+<h2 style="margin-left:20px">Подбор по автомобилю</h2>
+<div style="background-color:#FFFFFF; padding:20px 20px 20px 20px">
+ <table width="51%"  border="0" cellspacing="10" cellpadding="10" style="background-color:#FFFFFF">
+ <td style="padding-left:50px" valign="top">Можно воспользоваться функцией "Подбор оптимальных вариантов шин и дисков по определенной марке и модели автомобиля" Для этого нужно перейти по ссылке "Подбор по авто" и выбрать нужную марку и модель транспортного средства. А так же год выпуска.</td>
+  
+    <td class="avto_podbor" width="25%">
+       <div class="avto_podbor"><img src="images/li1.gif" class="t_calc"><a href="avto_podbor.html" class="t_calc">Подбор по авто</a></div>
+    </td>
+ </table>
+</div>
+
+<h2 style="margin-left:20px">Визуально</h2>
+<div style="background-color:#FFFFFF; padding:20px 20px 20px 20px">
+ <table width="51%"  border="0" cellspacing="10" cellpadding="10" style="background-color:#FFFFFF">
+ <td style="padding-left:50px" valign="top">Можно воспользоваться функцией "визуальный просмотр" Для этого нужно перейти по ссылке "Объемная 3D модель" и выбрать нужные параметры.</td>
+  
+    <td class="avto_podbor" width="25%">
+       <div class="avto_podbor"><img src="images/li1.gif" class="t_calc"><a href="vizual.html" class="t_calc">Объемная 3D модель</a></div>
+    </td>
+
+</table>
+</body>
+</html>

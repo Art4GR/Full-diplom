@@ -1,0 +1,124 @@
+.header_inner,.inner, {
+ max-width:1140px
+}
+.header1,body,html {
+ width:100%
+}
+body,html {
+ height:100%
+}
+.title_h2,h1 {
+ text-transform:uppercase
+}
+#page-wrapper,.header1,.inner,body {
+ position:relative
+}
+select {
+ height:27px;
+ border:1px solid #a4a2a3;
+ outline-offset:-1px;
+ background:#fff;
+ font-size:13px;
+ color:#c53904;
+ font-weight:800
+}
+body {
+ margin:0;
+ padding:0;
+ font-size:14px;
+ font-family:Trebuchet MS,sans-serif;
+ color:#212121;
+ background-repeat:repeat-x
+}
+
+.zaglushka {
+ padding:10px
+}
+
+@media (max-width:630px) {
+ #carinner {
+  display:none
+ }
+ .zaglushka {
+  display:block
+ }
+}
+@media (max-width:700px) {
+ .top_contacts_number {
+  font-size:25px!important
+ }
+ 
+ #carinner {
+  display:none
+ }
+ .zaglushka {
+  display:block
+ }
+
+@media screen and (max-width:1150px) {
+ #wsm-callbackpro {
+  position:absolute!important
+ }
+}
+ .zaglushka {
+  display:block
+ }
+}
+@media screen and (max-width:768px) {
+ #wsm-callbackpro {
+  position:absolute!important;
+  margin-top:58px!important
+ }
+  .block1 {
+  width:50%!important;
+  height:210px!important
+ }
+ #carinner {
+  display:none
+ }
+ .zaglushka {
+  display:block
+ }
+}
+
+#main-menu,#main-menu ul a,.btn,.btn1,.header_left_banner {
+ text-transform:uppercase
+}
+/* kolesa*/
+.col2_left {
+ float:left;
+ width:291px;
+ margin-right:10px
+}
+
+.col2_left a img {
+ max-width:100%;
+ height:auto
+}
+.col2_right img {
+ max-width:100%;
+ height:auto;
+ display:block
+}
+/* цвета кнопок */
+.btn,.btnw {
+ color:#fff;
+ border:0;
+ position:relative;
+ text-align:center;
+ cursor:pointer
+}
+
+.btn,.btn:hover {
+ background-color:#cc181e
+}
+
+.btn {
+ font-size:13px;
+ padding:9px 18px;
+ width:48%;
+ box-shadow:0 -1px 0 0 rgba(0,0,0,.25) inset!important
+}
+.btn {
+ display:inline-table
+}

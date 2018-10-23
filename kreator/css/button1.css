@@ -1,0 +1,72 @@
+﻿.header1,body,html {
+ width:100%
+}
+.clear,.middle {
+ clear:both
+}
+body,html {
+ height:100%
+}
+.title_h2,h1 {
+ text-transform:uppercase
+}
+body {
+ margin:0;
+ padding:0;
+ font-size:14px;
+ font-family:Trebuchet MS,sans-serif;
+ color:#212121;
+ background-repeat:repeat-x
+}
+
+#main-menu .mm-item,.hvr-ripple-out,.ralbox,.ui-button,.ui-spinner,.ui-spinner-input {
+ vertical-align:middle
+}
+.col2_left a img {
+ max-width:100%;
+ height:auto
+}
+/* kolesa*/
+.col2_right img {
+ max-width:100%;
+ height:auto;
+ display:block
+}
+
+/* цвета кнопок */
+.btn,.btn1,.btnw {
+ color:#fff;
+ border:0;
+ position:relative;
+ text-align:center;
+ cursor:pointer
+}
+
+.btn,.btn:hover {
+ background-color:#cc181e
+}
+
+.btn,.btn1 {
+ font-size:13px;
+ padding:9px 18px;
+ width:48%;
+ box-shadow:0 -1px 0 0 rgba(0,0,0,.25) inset!important
+}
+.btn {
+ display:inline-table
+}
+.btn1,.btnw {
+ display:inline-block
+}
+.btn1,.btn1:hover {
+ background-color:#cc181e!important
+}
+ select {
+ height:27px;
+ border:1px solid #a4a2a3;
+ outline-offset:-1px;
+ background:#fff;
+ font-size:13px;
+ color:#c53904;
+ font-weight:800
+}
