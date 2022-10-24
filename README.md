@@ -1,5 +1,5 @@
 ## Дипломная работа "Создание параметрической модели шины и диска"
-Technologies: Java, HTML, CSS, JS, Blender, Package MS Office
+Technologies: Java, HTML, CSS, JS, Blender, Photoshop
 
 ![Image alt](https://github.com/Art4GR/Full-diplom/blob/master/PagesPreview%20.png)
 
